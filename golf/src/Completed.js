@@ -14,7 +14,7 @@ export default function Completed(){
         return(
             <div className="fetched">
                  
-                  <p> <strong>Car</strong>-{car.Car} ,<strong>Year</strong>:{car.Year}</p>
+                  <p> <strong>Golf</strong>-{car.Car} ,<strong>Year</strong>:{car.Year}</p>
                  
                   <img  src={car.Image}  width='100px'/>
 
@@ -27,7 +27,7 @@ export default function Completed(){
  return(
 <div id="completed">
    
-    <h5>Golf courses in kenya</h5>
+    <h5>below are images of the Golf courses in Kenya</h5>
 
 <div className="display">{displayed}</div>
 {/* <div>{newCar}</div> */}
