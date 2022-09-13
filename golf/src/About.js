@@ -1,8 +1,7 @@
 import React from "react";
 import pic1 from './image/golf.jpg';
 export default function About(){
-    return(
-        
+    return( 
 <div id="about">
   <img src={pic1} className='pic1'/>
 <p className="p1">Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible.
