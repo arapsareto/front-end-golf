@@ -21,7 +21,6 @@ export default function Book(){
   </form>
  </Form>
  </div>
-    
 </div>
     )
 }

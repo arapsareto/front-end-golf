@@ -8,9 +8,7 @@ import Book from './Book';
 import { NavBar } from './Nav';
 import {pic1} from './image/benz.jpg'
 import { BrowserRouter, Route } from 'react-router-dom';
-
 function App() {
-  
   return (
     <div className="App">
       <BrowserRouter>
