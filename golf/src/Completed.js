@@ -19,8 +19,6 @@ export default function Completed(){
                   <img  src={car.Image}  width='100px'/>
 
             </div>
-          
-            
         )
         })
      
@@ -30,7 +28,7 @@ export default function Completed(){
     <h5>below are images of the Golf courses in Kenya</h5>
 
 <div className="display">{displayed}</div>
-{/* <div>{newCar}</div> */}
+
 </div>
     )
 }
