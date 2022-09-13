@@ -8,7 +8,7 @@ export default function Book(){
  <Form >
   <form action="#">
     <fieldset>
-      <label for="name">Enter Name:
+      <label for="name">Enter your Name:
         <input type="text" name="first-name" required />
       </label>
       <label for="last-name">golf course <input type="text" name="golf course" required /></label>
