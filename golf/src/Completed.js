@@ -13,11 +13,8 @@ export default function Completed(){
       const displayed =cars.map((car)=>{
         return(
             <div className="fetched">
-                 
                   <p> <strong>Golf</strong>-{car.Car} ,<strong>Year</strong>:{car.Year}</p>
-                 
                   <img  src={car.Image}  width='100px'/>
-
             </div>
         )
         })
