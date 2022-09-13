@@ -18,7 +18,6 @@ function App() {
       <Route  path='/book' exact component={Book}/>
       <Route  path='/review' exact component={Review}/>
       </BrowserRouter>
-      
     </div>
   );
 }
