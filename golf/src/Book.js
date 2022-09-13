@@ -4,7 +4,6 @@ import {Form,FormGroup,Label} from 'reactstrap';
 export default function Book(){
     return(
 <div id="book" >
-
  <div id="form">
  <Form >
   <form action="#">
