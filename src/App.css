@@ -1,7 +1,109 @@
+
 .App {
   text-align: center;
+  background-color:beige;
+  
 }
 
+.pic1{
+  margin-top: 40px;
+  height: 300px;
+  width: 500px;
+}
+
+.p1{
+ align-items: center;
+ width: 500px;
+ margin: auto;
+ 
+
+}
+.display{
+ display: flex;
+ width: 100%;
+align-items: center;
+justify-content: space-evenly;
+
+
+}
+/* .fetched{
+  border: 1px solid gray;
+  padding: 5px;
+  box-shadow: 3px 3px 3px cornflowerblue;
+} */
+form {
+  width: 60vh;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: aquamarine;
+ 
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background: linear-gradient(rgb(63, 63, 63), rgb(25, 25, 49));
+  border-color: whitesmoke;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 2px 2px 2px 1px;
+}
+
+a {
+  color: #dfdfe2;
+}
+
+
+
+
+.completed{
+  display: flex;
+  text-align: center;
+  border-style: dashed;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +114,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+nav{
+  display: flex ;
+  justify-content: space-around ;
+  align-items: center;
+  min-height: 15vh;
+  background-color:gray;
+  color: aliceblue;
+}
+.navs{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +139,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.book{
+  box-sizing: border-box;
+ 
+
+  }
+  .book input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .book label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
 
 .App-link {
   color: #61dafb;
