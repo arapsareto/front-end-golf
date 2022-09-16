@@ -14,7 +14,7 @@ export default function Completed(){
       const displayed =cars.map((car)=>{
         return(
             <div className="fetched">
-                  <p> <strong>Golf</strong>-{car.id} ,<strong>Year</strong>:{car.location},<strong>name</strong>:{car.name}</p>
+                  <p> <strong>Golf course ID</strong>-{car.id} ,<strong>location</strong>:{car.location},<strong>name</strong>:{car.name}</p>
                 
             </div>
         )
