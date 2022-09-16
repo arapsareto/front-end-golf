@@ -26,11 +26,11 @@ justify-content: space-evenly;
 
 
 }
-.fetched{
+/* .fetched{
   border: 1px solid gray;
   padding: 5px;
   box-shadow: 3px 3px 3px cornflowerblue;
-}
+} */
 form {
   width: 60vh;
   max-width: 500px;

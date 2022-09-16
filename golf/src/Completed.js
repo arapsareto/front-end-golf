@@ -4,17 +4,18 @@ import Book from "./Book";
 export default function Completed(){
     const [cars, setCars] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:3000/Courses")
+        fetch("https://golfbakend.herokuapp.com/courses")
           .then((r) => r.json())
           .then((data) => {
+            console.log(data);
             setCars(data)
           });
       }, []);
       const displayed =cars.map((car)=>{
         return(
             <div className="fetched">
-                  <p> <strong>Golf</strong>-{car.Car} ,<strong>Year</strong>:{car.Year}</p>
-                  <img  src={car.Image}  width='100px'/>
+                  <p> <strong>Golf</strong>-{car.id} ,<strong>Year</strong>:{car.location},<strong>name</strong>:{car.name}</p>
+                
             </div>
         )
         })
@@ -22,9 +23,12 @@ export default function Completed(){
  return(
 <div id="completed">
    
-    <h5>below are images of the Golf courses in Kenya</h5>
+    <h5>below are  Golf courses in Kenya</h5>
+    {displayed}
+{/* <div className="display">{displayed}</div> */}
 
-<div className="display">{displayed}</div>
+
+
 
 </div>
     )
