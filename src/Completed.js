@@ -1,7 +1,9 @@
-import { set } from "date-fns";
+// <<<<<<< HEAD:golf/src/Completed.js
+// import { set } from "date-fns";
 
+// =======
+// >>>>>>> 302170c6af4b18c0e2a3f0b8a27e9e83b70d0673:src/Completed.js
 import React,{useState,useEffect} from "react";
-import Book from "./Book";
 export default function Completed(){
     const [cars, setCars] = useState([]);
     useEffect(() => {

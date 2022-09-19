@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdac6b91.css",
+    "main.js": "/static/js/main.6e413f6f.js",
+    "static/js/787.79f09058.chunk.js": "/static/js/787.79f09058.chunk.js",
+    "static/media/benz.jpg": "/static/media/benz.41d783bb3547f065182e.jpg",
+    "static/media/golf.jpg": "/static/media/golf.51acc532a145c166467d.jpg",
+    "index.html": "/index.html",
+    "main.cdac6b91.css.map": "/static/css/main.cdac6b91.css.map",
+    "main.6e413f6f.js.map": "/static/js/main.6e413f6f.js.map",
+    "787.79f09058.chunk.js.map": "/static/js/787.79f09058.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdac6b91.css",
+    "static/js/main.6e413f6f.js"
+  ]
+}
