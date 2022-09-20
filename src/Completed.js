@@ -1,12 +1,17 @@
 import React,{useState,useEffect} from "react";
+import NewCourses from "./CreateCourse";
+import {Form} from 'reactstrap';
 export default function Completed(){
     const [cars, setCars] = useState([]);
     useEffect(() => {
         fetch("https://golfbakend.herokuapp.com/courses")
+        
           .then((r) => r.json())
           .then((data) => {
             console.log(data);
             setCars(data)
+
+
           });
       }, []);
       const displayed =cars.map((car)=>{
@@ -23,6 +28,12 @@ export default function Completed(){
    
     <h5>below are  Golf courses in Kenya</h5>
     {displayed}
+
+    <div>
+    
+      
+        
+    </div>
 {/* <div className="display">{displayed}</div> */}
 
 

@@ -6,6 +6,7 @@ import Courses from './Completed';
 import Review from './Review';
 import Book from './Book';
 import { NavBar } from './Nav';
+import NewCourses from './CreateCourse';
 import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Route  path='/courses' exact component={Courses}/>
       <Route  path='/book' exact component={Book}/>
       <Route  path='/review' exact component={Review}/>
+      <Route  path='/new' exact component={NewCourses}/>
+
       </BrowserRouter>
     </div>
   );
